@@ -5,7 +5,7 @@ public class HelloWorld {
         int mySecondNumber = 12;
         int myThirdNumber = 6;
         int myTotal = (myFirstNumber*mySecondNumber) + myFirstNumber % (mySecondNumber / myThirdNumber);
-
-        System.out.println(myTotal);
+        int finalValue = 1000 - myTotal;
+        System.out.println(finalValue);
     }
 }
