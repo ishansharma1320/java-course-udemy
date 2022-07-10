@@ -4,8 +4,8 @@ public class HelloWorld {
         int myFirstNumber = 5;
         int mySecondNumber = 12;
         int myThirdNumber = 6;
+        int myTotal = (myFirstNumber*mySecondNumber) + myFirstNumber % (mySecondNumber / myThirdNumber);
 
-
-        System.out.println((myFirstNumber*mySecondNumber) + myFirstNumber % (mySecondNumber / myThirdNumber));
+        System.out.println(myTotal);
     }
 }
